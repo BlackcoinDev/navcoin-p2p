@@ -6,17 +6,17 @@ Navcoin P2P SDK
 [![Build Status](https://img.shields.io/travis/bitpay/bitcore-p2p.svg?branch=master&style=flat-square)](https://travis-ci.org/bitpay/bitcore-p2p)
 [![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore-p2p.svg?style=flat-square)](https://coveralls.io/r/bitpay/bitcore-p2p?branch=master)
 
-`navcoin@bitcore-p2p` adds [Navcoin protocol](https://en.bitcoin.it/wiki/Protocol_documentation) support for Bitcore.
+`@aguycalled/bitcore-p2p` adds [Navcoin protocol](https://en.bitcoin.it/wiki/Protocol_documentation) support for Bitcore.
 
 ## Getting Started
 
 ```sh
-npm install navcoin@bitcore-p2p
+npm install @aguycalled/bitcore-p2p
 ```
 In order to connect to the Navcoin network, you'll need to know the IP address of at least one node of the network, or use [Pool](/docs/pool.md) to discover peers using a DNS seed.
 
 ```javascript
-var Peer = require('navcoin@bitcore-p2p').Peer;
+var Peer = require('@aguycalled/bitcore-p2p').Peer;
 
 var peer = new Peer({host: '127.0.0.1'});
 

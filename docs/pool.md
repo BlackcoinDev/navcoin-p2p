@@ -5,7 +5,7 @@ The quickest way to get connected is to run the following:
 
 ```javascript
 
-var Pool = require('@navcoin/bitcore-p2p').Pool;
+var Pool = require('@aguycalled/bitcore-p2p').Pool;
 var Networks = require('@aguycalled/bitcore-lib').Networks;
 
 var pool = new Pool({network: Networks.livenet});
