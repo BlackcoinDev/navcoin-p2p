@@ -1,6 +1,6 @@
 {
   "name": "@aguycalled/bitcore-p2p",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "description": "Interface to the Navcoin P2P network for bitcore",
   "main": "index.js",
   "scripts": {
@@ -34,6 +34,9 @@
     "chai": "~1.10.0",
     "gulp": "^3.8.10",
     "sinon": "^1.12.2"
+  },
+  "react-native": {
+    "net": "react-native-tcp-socket"
   },
   "license": "MIT"
 }
