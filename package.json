@@ -1,6 +1,6 @@
 {
   "name": "@aguycalled/bitcore-p2p",
-  "version": "5.0.10",
+  "version": "5.0.11",
   "description": "Interface to the Navcoin P2P network for bitcore",
   "main": "index.js",
   "scripts": {
